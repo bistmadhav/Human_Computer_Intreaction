@@ -1,0 +1,34 @@
+.header{
+    background-color:#0064b1;
+    height: 90px;
+    display: flex;
+    margin-top: auto;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-items: center;
+    font-size: small;
+    padding: 5px;
+}
+
+.tet{
+
+    padding:10px;
+    border-radius: 1px;
+    width: 300px;
+  
+}
+
+.NP{
+    color:#0064b1;
+}
+
+.he{
+    color:#0064b1;
+}
+
+
+.btn{
+    background-color: blue;
+  margin-left: 550px;
+  margin-top: 14px;
+}
