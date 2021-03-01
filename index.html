@@ -1,161 +1,86 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UTA</title>
-    <link rel="stylesheet" href="index.css">
-</head>
-<div class = "header">
-    <h1>The University of texas Arlington</h1>
-    <h1 class="NP">Helping UTA </h1>
-    <input class="tet" type="text" placeholder="Search your program here..">
-    <h1 class="he">freshman</h1>
-    <h4>About Us</h4>
-</div>
-    <style>
-        table,   th,    td    {
-        
-            border: 2px solid black;
+!!!
+%html{:lang => "en"}
+  %head
+    %meta{:charset => "UTF-8"}/
+    %meta{:content => "IE=edge", "http-equiv" => "X-UA-Compatible"}/
+    %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}/
+    %title UTA
+    %link{:href => "index.css", :rel => "stylesheet"}/
+  %body
+    .header
+      %h1 The University of texas Arlington
+      %h1.NP Helping UTA
+      %input.tet{:placeholder => "Search your program here..", :type => "text"}/
+      %h1.he freshman
+      %h4 About Us
+    :css
+      table,   th,    td    {
+      
+          border: 2px solid black;
 
 
-          border-collapse: collapse;
-        }
-        th,       td 
-        {
-          padding: 5px;
+        border-collapse: collapse;
+      }
+      th,       td 
+      {
+        padding: 5px;
 
-          text-align: left;    
-        }
-        </style>
-
-
-        </head>
-
-
-        <body>
-        
-        <h2>Overview</h2>
-        
-        <p>The Univeristy of Texas at Arlington college of business and communication is passionte about helping the freshman student we have advising faculity located at COBA 356 building located behind the central library. </p>
-        
-        <p>The page below demostrate the course and it's description along with the prerequits and co-requits</p>
-        
-        <p>Note: You must visit the advisor before enrolling the class</p>
-        
-        <table style=" width:100% ">
-          <tr>
-
-            <th>Course Number  
-                 </th>
-            <th colspan="2"> 
-                  Course description   </th>
-          </tr>
-          <tr>
-
-            <td> BM - 1200</td>
-
-            <td>This course is business marketing 2 credit hours </td>
-
-            <td>prerequite: BTA 1000</td>
-
-          </tr>
-
-          <tr>
-
-            <td> BMT - 1300</td>
-
-            <td>This course is business marketing 3 credit hours </td>
-
-            <td>prerequite: BT 1200</td>
-
-          </tr>
-
-          <tr>
-
-            <td> COM - 2300</td>
-
-            <td>This course is business marketing 3 credit hours </td>
-
-            <td>prerequite: BTA 1300</td>
-
-          </tr>
-
-          <tr>
-
-            <td> PYSC - 3200</td>
-
-            <td>This course is business marketing 2 credit hours </td>
-
-            <td>prerequite: BTA 1300</td>
-
-          </tr>
-
-          <tr>
-
-            <td> HIST - 1300</td>
-
-            <td>This course is business marketing 3 credit hours </td>
-
-            <td>prerequite: BTA 1200</td>
-
-          </tr>
-
-
-          <tr>
-
-            <td> HIST - 1310</td>
-
-            <td>This course is business marketing 3 credit hours </td>
-
-            <td>prerequite: HIST 1300</td>
-
-          </tr>
-
-
-          <tr>
-
-            <td> EC - 3311</td>
-
-            <td>This course is business marketing 3 credit hours </td>
-
-            <td>prerequite:  EC-1200</td>
-
-          </tr>
-
-
-          <tr>
-
-            <td> SPCH - 3300</td>
-
-            <td>This course is business marketing 3 credit hours </td>
-
-            <td>prerequite: SPCH 1000</td>
-
-          </tr>
-        </table>
-        
-        <style>
-            table,   th,    td    {
-            
-                border: 2px solid black;
+        text-align: left;    
+      }
+    %h2 Overview
+    %p The Univeristy of Texas at Arlington college of business and communication is passionte about helping the freshman student we have advising faculity located at COBA 356 building located behind the central library.
+    %p The page below demostrate the course and it's description along with the prerequits and co-requits
+    %p Note: You must visit the advisor before enrolling the class
+    %table{:style => " width:100% "}
+      %tr
+        %th
+          Course Number
+        %th{:colspan => "2"}
+          Course description
+      %tr
+        %td BM - 1200
+        %td This course is business marketing 2 credit hours
+        %td prerequite: BTA 1000
+      %tr
+        %td BMT - 1300
+        %td This course is business marketing 3 credit hours
+        %td prerequite: BT 1200
+      %tr
+        %td COM - 2300
+        %td This course is business marketing 3 credit hours
+        %td prerequite: BTA 1300
+      %tr
+        %td PYSC - 3200
+        %td This course is business marketing 2 credit hours
+        %td prerequite: BTA 1300
+      %tr
+        %td HIST - 1300
+        %td This course is business marketing 3 credit hours
+        %td prerequite: BTA 1200
+      %tr
+        %td HIST - 1310
+        %td This course is business marketing 3 credit hours
+        %td prerequite: HIST 1300
+      %tr
+        %td EC - 3311
+        %td This course is business marketing 3 credit hours
+        %td prerequite:  EC-1200
+      %tr
+        %td SPCH - 3300
+        %td This course is business marketing 3 credit hours
+        %td prerequite: SPCH 1000
+    :css
+      table,   th,    td    {
+      
+          border: 2px solid black;
     
     
-              border-collapse: collapse;
-            }
-            th,       td 
-            {
-              padding: 5px;
+        border-collapse: collapse;
+      }
+      th,       td 
+      {
+        padding: 5px;
     
-              text-align: left;    
-            }
-            </style>
-    
-    
-            </head>
-    
-           
-            <button class= "btn" type = "button">See more </button>
-            
-</body>
-</html>
+        text-align: left;    
+      }
+    %button.btn{:type => "button"} See more
